@@ -1,0 +1,93 @@
+body {
+  background-image: url("../images/cal-area2.jpg");
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
+main {
+  width: 35%;
+  background-color: rgb(128, 128, 128, 0.3);
+  border-radius: 5px;
+  padding: 1rem;
+}
+h1 {
+  padding: 0px 20px 0px 20px;
+  font-size: 2.5rem;
+  color: burlywood;
+  user-select: none;
+}
+h2 {
+  font-size: 1.8rem;
+  color: white;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.2s ease;
+  user-select: none;
+}
+a:hover {
+  color: wheat;
+}
+li {
+  margin-bottom: 10px;
+  user-select: none;
+}
+ul li::before {
+  content: "\2022";
+  color: yellowgreen;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1em;
+}
+label {
+  color: white;
+  font-size: 1.3rem;
+  user-select: none;
+}
+input {
+  height: 1.2rem;
+  outline: none;
+}
+.inputBox {
+  margin-bottom: 1rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  padding: 9px;
+  cursor: pointer;
+  background-color: skyblue;
+  border: none;
+  border-radius: 3px;
+  transition: 0.2s ease;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+button:hover {
+  background-color: rgb(135, 206, 235, 0.7);
+}
+.back {
+  text-decoration: underline;
+  padding: 0%;
+  margin: 0%;
+  font-size: medium;
+}
+.back:hover {
+  color: wheat;
+}
+@media screen and (max-width: 900px) {
+  body {
+    height: 60vh;
+  }
+  main {
+    width: 90%;
+  }
+}
